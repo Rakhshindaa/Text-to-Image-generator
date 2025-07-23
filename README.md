@@ -1,3 +1,35 @@
-# Text-to-Image-generator
-Stable Diffusion is a latent text-to-image diffusion model that generates realistic images based on textual descriptions. It was developed by CompVis, and its first version (v1.4) is one of the most commonly used models in various AI applications. Stable Diffusion is highly efficient in creating high-quality and detailed images from relatively simple text inputs, offering a range of creative possibilities.
-In this project, we will explore how to create images from text using Stable Diffusion in Python, leveraging a model pre-trained by Hugging Face's Diffusers library and the Stable Diffusion Pipeline. This process enables generating detailed images based solely on textual prompts, which can be useful for artists, content creators, or even just for experimentation.
+# 🧠 Text-to-Image Generator 🎨 | Powered by Stable Diffusion
+
+Generate high-quality, realistic images from simple text prompts using the power of **Stable Diffusion** and Hugging Face’s `diffusers` library. This project showcases how deep learning can bridge natural language and visual creativity.
+
+---
+
+## ✨ Overview
+
+**Stable Diffusion** is a powerful latent diffusion model developed by **CompVis** that generates images from text descriptions. It has revolutionized text-to-image synthesis with its high speed, open accessibility, and exceptional output quality.
+
+In this project, we explore how to use **Python** and **Hugging Face's Diffusers pipeline** to create compelling images from text — perfect for:
+- Designers & digital artists
+- AI enthusiasts & researchers
+- Creative content generation
+- Visual storytelling
+
+---
+
+## 🧰 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| 🐍 Python | Core language |
+| 🤗 Hugging Face `diffusers` | Pre-trained model loading & generation |
+| 🔬 `transformers`, `torch`, `safetensors` | Backend deep learning libraries |
+| 🖼️ PIL / matplotlib | Image visualization and export |
+
+---
+
+## 📦 Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/Rakhshindaa/Text-to-Image-generator
+cd Text-to-Image-generator
